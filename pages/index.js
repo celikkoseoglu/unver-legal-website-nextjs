@@ -10,10 +10,11 @@ import {
   getInitialLanguage,
 } from "../utils/LanguageSwitcher";
 import NoSSR from "react-no-ssr";
+import { getAllPosts } from "../lib/api";
 
 const content = require("../data/content.json");
 
-export default function Home() {
+export default function Home({ allPosts }) {
   const [language, setLanguage] = useState(getInitialLanguage());
 
   const noSSRContent = (
@@ -26,6 +27,7 @@ export default function Home() {
       <AboutMe id={content.aboutUsReference} language={DEFAULT_LANGUAGE} />
       <PublicationShowcase
         id={content.publicationShowcaseReference}
+        allPosts={allPosts}
         language={DEFAULT_LANGUAGE}
       />
       <Contact id={content.contactReference} language={DEFAULT_LANGUAGE} />
@@ -40,6 +42,7 @@ export default function Home() {
       <AboutMe id={content.aboutUsReference} language={language} />
       <PublicationShowcase
         id={content.publicationShowcaseReference}
+        allPosts={allPosts}
         language={language}
       />
       <Contact id={content.contactReference} language={language} />
@@ -48,4 +51,18 @@ export default function Home() {
   );
 
   return <NoSSR onSSR={noSSRContent}>{clientContent}</NoSSR>;
+}
+
+export async function getStaticProps() {
+  const allPosts = getAllPosts([
+    "title",
+    "description",
+    "date",
+    "readTime",
+    "slug",
+  ]);
+
+  return {
+    props: { allPosts },
+  };
 }

@@ -27,7 +27,7 @@ import Container from "../Util/Container";
 import UnstyledLink from "../Util/UnstyledLink";
 import { getLanguageFile } from "../../utils/LanguageSwitcher";
 
-const PublicationShowcase = ({ id, language }) => {
+const PublicationShowcase = ({ id, allPosts, language }) => {
   const blogShowcase = getLanguageFile("blogShowcase", language);
   const blog = getLanguageFile("blog", language);
 
@@ -35,7 +35,10 @@ const PublicationShowcase = ({ id, language }) => {
     <Section className={backgroundImage} id={id}>
       <Container className={sectionMargins}>
         <Row className={titleRow}>
-          <Heading text={blogShowcase.latestPublicationsTitle} className={heading} />
+          <Heading
+            text={blogShowcase.latestPublicationsTitle}
+            className={heading}
+          />
         </Row>
         <HorizontalRuler isDark className={ruler} />
         <Row className={`${descriptionRow}`}>
@@ -44,17 +47,19 @@ const PublicationShowcase = ({ id, language }) => {
           </div>
         </Row>
         <Row>
-          {retrieveLatestBlogPosts(blog).map((blogItem, index) => (
+          {retrieveLatestBlogPosts(allPosts).map((blogItem, index) => (
             <PublicationShowcaseCard
               timestamp={blogItem.date}
-              minutes={blogItem.minutes}
-              blogPost={blogItem.blogPost}
-              title={blogItem.title}
-              subtitle={blogItem.subtitle}
+              minutes={blogItem.readTime}
+              blogPost={blogItem.slug}
+              title={blogItem.title.post}
+              subtitle={blogItem.description}
               className={
-                index >= NUMBER_OF_LATEST_BLOG_CARDS_TO_RENDER_ON_MOBILE ? blogShowcaseCard : null
+                index >= NUMBER_OF_LATEST_BLOG_CARDS_TO_RENDER_ON_MOBILE
+                  ? blogShowcaseCard
+                  : null
               }
-              key={blogItem.title}
+              key={blogItem.title.post}
             />
           ))}
         </Row>
