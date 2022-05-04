@@ -1,0 +1,27 @@
+@import "../../../utils/widthPicker"
+@import "../../../utils/colorPalette"
+@import "../../../utils/animationTimer"
+
+.backgroundImage
+  background: url("/images/publicationShowcase/papers.jpg")
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+
+.blogShowcaseCard
+  display: none
+  +screen(greaterThanExtraLarge)
+    display: block
+
+.link
+  color: $sky-blue
+  font-family: Montserrat, sans-serif
+  transition: color $colorTransitionDuration
+  font-weight: 500
+  margin-top: 20px
+  &:hover
+    color: $light-blue
+
+.buttonPadding
+  padding-top: 15px

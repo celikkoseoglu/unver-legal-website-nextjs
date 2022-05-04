@@ -1,0 +1,82 @@
+@import "../../../utils/widthPicker"
+@import "../../../utils/colorPalette"
+
+$transparency: 0.90
+$navbar-color: rgba(27, 27, 27, $transparency)
+
+.brand
+  width: 160px
+  +screen(lessThanMedium)
+    width: 120px
+
+.brandSmall
+  width: 140px
+  +screen(lessThanMedium)
+    width: 100px
+
+.brandTransition
+  transition: width .5s ease .1s
+
+.topNavExpand
+  padding-top: 20px
+  padding-bottom: 20px
+
+.topNavCollapse
+  backdrop-filter: blur(5px)
+  padding-top: 8px
+  padding-bottom: 8px
+
+.customNavbar
+  transition: background .2s ease .1s, padding .5s ease
+  position: fixed
+  width: 100%
+  z-index: 1000
+
+.whiteLink
+  color: $pale-grey
+  font-family: 'Montserrat', sans-serif
+  font-weight: 600
+  transition: color .3s ease-in-out
+  +screen(small)
+    padding-left: 2px
+  &:hover
+    color: $white
+
+.navbarToggle
+  +screen(greaterThanMedium)
+    display: none
+
+.navbarContainer
+  display: flex
+  align-items: center
+  justify-content: space-between
+  +screen(lessThanMedium)
+    display: block
+
+.mobileNavbar
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.navbarLinks
+  display: flex
+  transition: max-height .2s ease-in-out
+  overflow: hidden
+  +screen(lessThanMedium)
+    display: block
+
+.mobileNavbarLinksCollapsed
+  +screen(lessThanMedium)
+    max-height: 0
+
+.mobileNavbarLinksExpanded
+  +screen(lessThanMedium)
+    max-height: 150px
+
+.noLeftPadding
+  padding-left: 0
+
+.verticalRuler
+  +screen(greaterThanMedium)
+    border-left: 1px solid $pale-grey
+    padding-left: 13px

@@ -1,0 +1,59 @@
+@import "../../utils/colorPalette"
+@import "../../utils/widthPicker"
+
+.languageToggle
+  border: none transparent // none is required for IE11 Support
+  cursor: pointer
+  color: $black
+  background: transparent
+  font-weight: 500
+  padding-left: 0
+
+.darkLanguageToggle
+  color: $pale-grey
+
+.languageToggle:focus
+  outline: 0
+
+.languageMarker
+  position: relative
+
+.firstLanguageMarker:after
+  margin-right: 36px
+  display: block
+  content: ""
+  width: 16px
+  height: 0.5px
+  background-color: $black
+  position:  absolute
+  right: 0
+
+.secondLanguageMarker:after
+  margin-right: 7px
+  display: block
+  content: ""
+  width: 17px
+  height: 0.5px
+  background-color: $black
+  position:  absolute
+  right: 0
+
+.firstLanguageMarkerDark:after
+  margin-right: 37px
+  display: block
+  content: ""
+  width: 16px
+  height: 0.5px
+  background-color: $pale-grey
+  position:  absolute
+  right: 0
+
+.secondLanguageMarkerDark:after
+  margin-right: 7px
+  display: block
+  content: ""
+  width: 17px
+  height: 0.5px
+  background-color: $pale-grey
+  position:  absolute
+  right: 0

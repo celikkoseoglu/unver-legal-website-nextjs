@@ -1,0 +1,67 @@
+@import "../../../utils/colorPalette"
+@import "../../../utils/animationTimer"
+@import "../../../utils/widthPicker"
+
+.noMargin
+  margin: 0
+
+.titleFont
+  font-family: "Montserrat", sans-serif
+  font-weight: 500
+  transition: text-shadow $colorTransitionDuration, color $colorTransitionDuration
+
+.defaultCursor
+  cursor: default
+
+.pointerCursor
+  cursor: pointer
+
+.title
+  text-shadow: -2px 2px 0px $smoke-grey
+
+.titleDark
+  text-shadow: -2px 2px 0px $dark-grey
+  color: $white
+
+.navbarFlex
+  display: flex
+  justify-content: space-between
+  min-width: 230px
+
+.darkModeToggle
+  display: flex
+  align-items: center
+  justify-content: center
+
+.brandingContainer
+  display: flex
+
+.branding
+  display: flex
+  justify-content: center
+  padding-bottom: 25px
+  transition: border-right $colorTransitionDuration
+
+.blogLinkBranding
+  color: $dark-blue
+  text-shadow: -2px 2px 0px $light-blue
+  &:hover
+    color: $dark-blue
+
+.blogLinkBrandingDark
+  color: $light-blue
+  text-shadow: -2px 2px 0px $dark-blue
+  &:hover
+    color: $light-blue
+
+.ruler
+  padding-bottom: 50px
+  width: 450px
+  +screen(lessThanMedium)
+    width: 100%
+    padding-bottom: 30px
+
+.centerAlign
+  display: flex
+  justify-content: center
+  padding-bottom: 25px

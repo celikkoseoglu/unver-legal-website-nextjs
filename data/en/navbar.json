@@ -1,0 +1,17 @@
+{
+  "landingReference": "landing",
+  "items": [
+    {
+      "title":"ABOUT US",
+      "reference": "aboutUs"
+    },
+    {
+      "title":"CONTACT",
+      "reference": "contact"
+    },
+    {
+      "title":"PUBLICATIONS",
+      "href": "/publications"
+    }
+  ]
+}
