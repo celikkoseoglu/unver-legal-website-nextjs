@@ -6,7 +6,6 @@ import {
   blogStyle,
   footerStyle,
 } from "../../stylesheets/Blog.module.sass";
-import BlogItem from "../../components/Blog/BlogItem";
 import BlogFooter from "../../components/Footer/BlogFooter";
 import HorizontalRuler from "../../components/Util/HorizontalRuler";
 import BlogNavbar from "../../components/Navbar/BlogNavbar";
@@ -20,6 +19,7 @@ import {
   getInitialLanguage,
   getLanguageFile,
 } from "../../utils/LanguageSwitcher";
+import BlogItem from "../../components/Blog/BlogItem";
 
 const formatDate = (date) => {
   const dateObject = new Date(date);
