@@ -17,10 +17,13 @@ import { getInitialTheme } from "../../utils/FileManager.utils";
 import BlogPostMarkdown from "../../components/Blog/BlogPostMarkdown";
 import NoSSR from "react-no-ssr";
 import getMeta from "../../components/Util/MetaGenerator";
-import { getLanguageFile } from "../../utils/LanguageSwitcher";
+import {
+  getInitialLanguage,
+  getLanguageFile,
+} from "../../utils/LanguageSwitcher";
 
 export default function Post({ post }) {
-  const language = "tr";
+  const [language, setLanguage] = useState(getInitialLanguage());
 
   const [isDark, setIsDark] = useState(getInitialTheme());
 
