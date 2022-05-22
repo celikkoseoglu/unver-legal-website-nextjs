@@ -4,7 +4,7 @@ title:
     post: "Annulment of the General Assembly Resolutions of Joint Stock Companies - Opposition in Advance"
 description: "The Right to Claim Annulment of the General Assembly Resolutions of Joint Stock Companies on Capital Increase - When Should Opposition to the Resolution be Made?"
 date: "2021-02-15"
-readTime: "10 dak"
+readTime: "10 min"
 cover:
     image: "/images/blogPost/generic/generic.jpg"
     alt: "UnverLegal publication image header art"
