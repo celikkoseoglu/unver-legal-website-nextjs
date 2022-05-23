@@ -17,7 +17,7 @@ const BrandingLogos = ({ className, isDark }) => (
       />
     </a>
     <a href="https://www.celikk.me">
-      <BlogBrandingLogo className={`${celikkBranding}`} isDark />
+      <BlogBrandingLogo className={celikkBranding} isDark />
     </a>
   </div>
 );

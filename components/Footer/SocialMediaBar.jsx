@@ -43,8 +43,6 @@ SocialMediaBar.propTypes = {
   socialMediaLinks: PropTypes.shape({
     linkedinLink: PropTypes.string.isRequired,
     linkedinAriaLabel: PropTypes.string.isRequired,
-    githubLink: PropTypes.string.isRequired,
-    githubAriaLabel: PropTypes.string.isRequired,
     emailLink: PropTypes.string.isRequired,
     emailAriaLabel: PropTypes.string.isRequired,
     mapLink: PropTypes.string.isRequired,

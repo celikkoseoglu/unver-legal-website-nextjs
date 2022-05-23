@@ -74,17 +74,16 @@ const NavigationBar = ({ language, languageSwitchFunction }) => {
         <div className={mobileNavbar}>
           <NavbarItem
             className={noLeftPadding}
-            title={
-              <img
-                alt="logo"
-                className={`${brandTransition} ${
-                  navbarExpanded ? brand : brandSmall
-                }`}
-                src="/images/unverLegalLogo.svg"
-              />
-            }
             reference={content.landingReference}
-          />
+          >
+            <img
+              alt="logo"
+              className={`${brandTransition} ${
+                navbarExpanded ? brand : brandSmall
+              }`}
+              src="/images/unverLegalLogo.svg"
+            />
+          </NavbarItem>
           <NavbarToggle
             onClickMethod={setMobileNavbarCollapsed}
             collapsed={mobileNavbarCollapsed}
@@ -100,12 +99,13 @@ const NavigationBar = ({ language, languageSwitchFunction }) => {
         >
           {content.items.map((item) => (
             <NavbarItem
-              title={item.title}
               reference={item.reference}
               href={item.href}
               className={whiteLink}
               key={item.title}
-            />
+            >
+              {item.title}
+            </NavbarItem>
           ))}
 
           <div className={verticalRuler} />
