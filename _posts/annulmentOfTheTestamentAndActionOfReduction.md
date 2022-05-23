@@ -1,7 +1,7 @@
 ---
 title:
     page: "UnverLegal - Annulment of the Testament and Action of Reduction"
-    post: "Annulment of the General Assembly Resolutions of Joint Stock Companies - Opposition in Advance"
+    post: "Annulment of the Testament and Action of Reduction"
 description: "Conditions for the Annulment of the Testament and Action of Reduction"
 date: "2021-11-01"
 readTime: "20 min"
