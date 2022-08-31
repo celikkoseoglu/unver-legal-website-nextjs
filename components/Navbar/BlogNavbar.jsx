@@ -20,6 +20,7 @@ import DarkModeToggle from "../DarkModeToggle";
 import UnstyledLink from "../Util/UnstyledLink";
 import HorizontalRuler from "../Util/HorizontalRuler";
 import LanguageToggle from "../LanguageToggle";
+import UnverLegalLogo from "../Animations/UnverLegalLogo";
 
 const BlogNavbar = ({
   headerText,
@@ -52,17 +53,8 @@ const BlogNavbar = ({
   return (
     <div>
       <UnstyledLink to={brandingLink}>
-        <a className={`${branding}`} href="/">
-          <img
-            border="0"
-            alt="logo"
-            src={
-              isDark
-                ? "/images/unverLegalLogo.svg"
-                : "/images/unverLegalLogoLight.svg"
-            }
-            height="90"
-          />
+        <a className={branding} href="/">
+          <UnverLegalLogo isDark={isDark}/>
         </a>
       </UnstyledLink>
 
