@@ -3,7 +3,7 @@ title:
     page: "UnverLegal - Coronavirus and Its Effects on Lease Agreements"
     post: "Coronavirus and Its Effects on Lease Agreements"
 description: "Adaptation of Lease Agreements in the Framework of Excessive Difficulty in Performance Due to Coronavirus and The Verdict of The Bursa Regional Court of Appeal"
-date: "2021-03-15"
+date: "2021-01-01"
 readTime: "15 min"
 cover:
     image: "/images/blogPost/generic/generic.jpg"
