@@ -2,7 +2,7 @@
 title:
     page: "UnverLegal - Legal Reason in Upper Limit Mortgage and Guaranty Agreements of Banks Restricting the Economic Freedom of Consumers"
     post: "Legal Reason in Upper Limit Mortgage and Guaranty Agreements of Banks Restricting the Economic Freedom of Consumers"
-description: "The necessity of the legal reason in the mortgage agreement and the validity of the phrase "guarantee for all debts born and to be born" imposed by banks in these agreements"
+description: "The necessity of the legal reason in the mortgage agreement and the validity of the phrase \"guarantee for all debts born and to be born\" imposed by banks in these agreements"
 date: "2021-04-01"
 readTime: "25 min"
 cover:
