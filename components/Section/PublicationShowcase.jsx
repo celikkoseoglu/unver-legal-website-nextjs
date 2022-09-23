@@ -29,7 +29,6 @@ import { getLanguageFile } from "../../utils/LanguageSwitcher";
 
 const PublicationShowcase = ({ id, allPosts, language }) => {
   const blogShowcase = getLanguageFile("blogShowcase", language);
-  const blog = getLanguageFile("blog", language);
 
   return (
     <Section className={backgroundImage} id={id}>
@@ -49,17 +48,17 @@ const PublicationShowcase = ({ id, allPosts, language }) => {
         <Row>
           {retrieveLatestBlogPosts(allPosts).map((blogItem, index) => (
             <PublicationShowcaseCard
-              timestamp={blogItem.date}
-              minutes={blogItem.readTime}
-              blogPost={blogItem.slug}
-              title={blogItem.title.post}
-              subtitle={blogItem.description}
+              timestamp={blogItem.data.date}
+              minutes={blogItem.data.readTime}
+              blogPost={blogItem.data.slug}
+              title={blogItem.data.title.post}
+              subtitle={blogItem.data.description}
               className={
                 index >= NUMBER_OF_LATEST_BLOG_CARDS_TO_RENDER_ON_MOBILE
                   ? blogShowcaseCard
                   : null
               }
-              key={blogItem.title.post}
+              key={blogItem.data.title.post}
             />
           ))}
         </Row>

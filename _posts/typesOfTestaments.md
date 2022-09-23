@@ -14,8 +14,6 @@ author:
 language: "en"
 ---
 
-<BlogMetaDecorator folder="generic" image="generic.jpg" imageAlt="image alt" description="Types of Wills in Turkish Law and Their Validity Conditions" title="UnverLegal - Types of Testaments (Wills)" />
-
 # Types of Testaments (Wills)
 
 ### “Types of Wills in Turkish Law and Their Validity Conditions”

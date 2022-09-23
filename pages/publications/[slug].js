@@ -21,6 +21,7 @@ import {
   getInitialLanguage,
   getLanguageFile,
 } from "../../utils/LanguageSwitcher";
+import { serialize } from "next-mdx-remote/serialize";
 
 export default function Post({ post }) {
   const [language, setLanguage] = useState(getInitialLanguage());
@@ -36,10 +37,10 @@ export default function Post({ post }) {
   }
 
   const meta = getMeta(
-    post.title.page,
-    post.description,
-    post.cover.image,
-    post.cover.alt
+    post.data.title.page,
+    post.data.description,
+    post.data.cover.image,
+    post.data.cover.alt
   );
 
   const noSSRContent = <></>;
@@ -60,11 +61,7 @@ export default function Post({ post }) {
               setIsDark={setIsDark}
             />
 
-            <BlogPostMarkdown
-              fileName={post.slug}
-              content={post.content}
-              isDark={isDark}
-            />
+            <BlogPostMarkdown content={post.content} />
 
             <HorizontalRuler isDark={isDark} />
           </div>
@@ -80,17 +77,9 @@ export default function Post({ post }) {
 }
 
 export async function getStaticProps({ params }) {
-  const post = getPostBySlug(params.slug, [
-    "title",
-    "description",
-    "date",
-    "cover",
-    "author",
-    "content",
-    "slug",
-  ]);
+  const post = getPostBySlug(params.slug);
 
-  const content = post.content || "";
+  const content = await serialize(post.content);
 
   return {
     props: {
@@ -103,7 +92,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const posts = getAllPosts(["slug"]);
+  const posts = getAllPosts();
 
   return {
     paths: posts.map((post) => {

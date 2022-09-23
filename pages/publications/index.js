@@ -44,6 +44,19 @@ export default function Blog({ allPosts }) {
     blog.metaImageAlt
   );
 
+  const getBlogItem = (post, isDark) => (
+    <BlogItem
+      className={blogItemMargin}
+      title={post.data.title.post}
+      date={formatDate(post.data.date)}
+      minutes={post.data.readTime}
+      subtitle={post.data.description}
+      blogPost={post.slug}
+      isDark={isDark}
+      key={post.data.title.post}
+    />
+  );
+
   const noSSRContent = <div></div>;
 
   const content = (
@@ -61,19 +74,8 @@ export default function Blog({ allPosts }) {
           languageSwitchFunction={setLanguage}
         />
         {allPosts
-          .filter((post) => post.language === language)
-          .map((post) => (
-            <BlogItem
-              className={blogItemMargin}
-              title={post.title.post}
-              date={formatDate(post.date)}
-              minutes={post.readTime}
-              subtitle={post.description}
-              blogPost={post.slug}
-              isDark={isDark}
-              key={post.title.post}
-            />
-          ))}
+          .filter((post) => post.data.language === language)
+          .map((post) => getBlogItem(post, isDark))}
 
         <HorizontalRuler isDark={isDark} />
       </div>
@@ -82,21 +84,11 @@ export default function Blog({ allPosts }) {
       </div>
     </div>
   );
-
   return <NoSSR onSSR={noSSRContent}>{content}</NoSSR>;
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts([
-    "title",
-    "description",
-    "date",
-    "readTime",
-    "cover",
-    "author",
-    "language",
-    "slug",
-  ]);
+  const allPosts = getAllPosts();
 
   return {
     props: { allPosts },
