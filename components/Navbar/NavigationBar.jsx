@@ -32,22 +32,23 @@ const NavigationBar = ({ language, languageSwitchFunction }) => {
   const content = getLanguageFile("navbar", language);
 
   function handleScroll() {
-    if (window.pageYOffset > 50) {
+    if (window.scrollY > 50) {
       setNavbarExpanded(false);
-    } else if (window.pageYOffset < 50) {
+    } else if (window.scrollY < 50) {
       setNavbarExpanded(true);
     }
 
-    if (window.pageYOffset > 250) {
+    if (window.scrollY > 250) {
       setTransparency(1);
     } else {
-      setTransparency(window.pageYOffset / 250.0);
+      setTransparency(window.scrollY / 250.0);
     }
 
     setMobileNavbarCollapsed(true);
   }
 
   useEffect(() => {
+    handleScroll();
     window.addEventListener("scroll", throttle(debounce(handleScroll)));
     return () =>
       window.removeEventListener("scroll", throttle(debounce(handleScroll)));
