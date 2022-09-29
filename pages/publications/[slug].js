@@ -43,7 +43,22 @@ export default function Post({ post }) {
     post.data.cover.alt
   );
 
-  const noSSRContent = <></>;
+  const noSSRContent = (
+    <>
+      {meta}
+      <div className={blogPostBody}>
+        <div className={width}>
+          <div className={blogContainer}>
+            <BlogPostMarkdown content={post.content} />
+            <HorizontalRuler isDark={false} />
+          </div>
+          <div className={footerStyle}>
+            <BlogFooter content={footer} isDark={false} />
+          </div>
+        </div>
+      </div>
+    </>
+  );
 
   const content = (
     <>
@@ -51,7 +66,7 @@ export default function Post({ post }) {
       <div className={`${isDark && blogPostDark} ${blogPostBody}`}>
         <GrowingCircleAnimation isDark={isDark} />
         <div className={width}>
-          <div className={`${blogContainer}`}>
+          <div className={blogContainer}>
             <BlogNavbar
               headerText={blogNavbar.blogBranding}
               headerLink={blogNavbar.blogLink}
