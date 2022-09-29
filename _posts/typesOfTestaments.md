@@ -6,8 +6,8 @@ description: "Types of Wills in Turkish Law and Their Validity Conditions"
 date: "2022-01-01"
 readTime: "15 min"
 cover:
-    image: "/images/blogPost/otoparktaTeslimEdilenAracinCalinmasi/otoparktaTeslimEdilenAracinCalinmasi.jpg"
-    alt: "car keys and a gavel next to each other"
+    image: "/images/blogPost/generic/generic.jpg"
+    alt: "UnverLegal publication image header art"
 author:
     name: Eralp Ünver
     picture: "/images/blog/eralpUnver.jpg"

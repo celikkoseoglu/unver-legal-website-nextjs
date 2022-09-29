@@ -6,8 +6,8 @@ description: "Validity of Employment Agreements Between Joint Stock Company and 
 date: "2022-01-15"
 readTime: "20 min"
 cover:
-    image: "/images/blogPost/otoparktaTeslimEdilenAracinCalinmasi/otoparktaTeslimEdilenAracinCalinmasi.jpg"
-    alt: "car keys and a gavel next to each other"
+    image: "/images/blogPost/generic/generic.jpg"
+    alt: "UnverLegal publication image header art"
 author:
     name: Eralp Ünver
     picture: "/images/blog/eralpUnver.jpg"
