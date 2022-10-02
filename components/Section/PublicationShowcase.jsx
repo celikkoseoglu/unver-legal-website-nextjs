@@ -50,7 +50,7 @@ const PublicationShowcase = ({ id, allPosts, language }) => {
             <PublicationShowcaseCard
               timestamp={blogItem.data.date}
               minutes={blogItem.data.readTime}
-              blogPost={blogItem.data.slug}
+              blogPost={blogItem.slug}
               title={blogItem.data.title.post}
               subtitle={blogItem.data.description}
               className={
