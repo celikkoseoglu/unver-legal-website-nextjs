@@ -3,7 +3,7 @@ title:
     page: "UnverLegal - Termination and Liquidation of the Ordinary Partnership"
     post: "Termination and Liquidation of the Ordinary Partnership"
 description: "The reasons for the termination of the ordinary partnership and the liquidation procedure to be carried out by the liquidator to be appointed by the court"
-date: "2021-02-01"
+date: "2022-02-01"
 readTime: "20 min"
 cover:
     image: "/images/blogPost/generic/generic.jpg"

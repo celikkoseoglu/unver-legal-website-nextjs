@@ -3,7 +3,7 @@ title:
     page: "UnverLegal - Yasal Mirasçılar ve Miras Paylaşımı"
     post: "Yasal Mirasçılar ve Miras Paylaşımı"
 description: "Yasal Mirasçıların Kimler Olduğu ve Miras Payları"
-date: "2022-12-01"
+date: "2021-12-01"
 readTime: "20 dak"
 cover:
     image: "/images/blogPost/generic/generic.jpg"

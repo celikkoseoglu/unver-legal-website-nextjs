@@ -3,7 +3,7 @@ title:
     page: "UnverLegal - Üst Sınır İpoteğinde Hukuki Sebep ve Tüketicilerin Ekonomik Özgürlüğünü Sınırlayan Banka Teminat Sözleşmeleri"
     post: "Üst Sınır İpoteğinde Hukuki Sebep ve Tüketicilerin Ekonomik Özgürlüğünü Sınırlayan Banka Teminat Sözleşmeleri"
 description: "Continuing to Work in the Same Workplace After Retirement"
-date: "2021-05-01"
+date: "2021-04-01"
 readTime: "25 dak"
 cover:
     image: "/images/blogPost/generic/generic.jpg"

@@ -3,7 +3,7 @@ title:
     page: "UnverLegal - Validity of Employment Agreements Between Joint Stock Company and Board Members/Senior Managers and Social Insurance of Board Members"
     post: "Validity of Employment Agreements Between Joint Stock Company and Board Members/Senior Managers and Social Insurance of Board Members"
 description: "Validity of Employment Agreements Between Joint Stock Company and Board Members/Senior Managers and Social Insurance of Board Members"
-date: "2022-01-15"
+date: "2021-01-15"
 readTime: "20 min"
 cover:
     image: "/images/blogPost/generic/generic.jpg"

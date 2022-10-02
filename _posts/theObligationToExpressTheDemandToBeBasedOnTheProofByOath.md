@@ -3,7 +3,7 @@ title:
     page: "UnverLegal - The Obligation to Express the Demand to be Based on the Proof by Oath"
     post: "The Obligation to Express the Demand to be Based on the Proof by Oath"
 description: "Decision of the General Assembly of the Unification of Case Law of the Court of Cassation"
-date: "2021-03-01"
+date: "2022-03-01"
 readTime: "20 min"
 cover:
     image: "/images/blogPost/generic/generic.jpg"

@@ -27,7 +27,7 @@ export default function Home({ allPosts }) {
       <AboutMe id={content.aboutUsReference} language={DEFAULT_LANGUAGE} />
       <PublicationShowcase
         id={content.publicationShowcaseReference}
-        allPosts={allPosts}
+        allPosts={allPosts.filter((post) => post.data.language === DEFAULT_LANGUAGE)}
         language={DEFAULT_LANGUAGE}
       />
       <Contact id={content.contactReference} language={DEFAULT_LANGUAGE} />
@@ -42,7 +42,7 @@ export default function Home({ allPosts }) {
       <AboutMe id={content.aboutUsReference} language={language} />
       <PublicationShowcase
         id={content.publicationShowcaseReference}
-        allPosts={allPosts}
+        allPosts={allPosts.filter((post) => post.data.language === language)}
         language={language}
       />
       <Contact id={content.contactReference} language={language} />
