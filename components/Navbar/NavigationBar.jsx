@@ -21,7 +21,7 @@ import {
 import Container from "../Util/Container";
 import NavbarToggle from "./NavbarToggle";
 import { debounce, throttle } from "../../utils/Limitors";
-import { getLanguageFile } from "../../utils/LanguageSwitcher";
+import {ENGLISH, getLanguageFile, TURKISH} from "../../utils/LanguageSwitcher";
 import LanguageToggle from "../LanguageToggle";
 
 const NavigationBar = ({ language, languageSwitchFunction }) => {
@@ -113,8 +113,8 @@ const NavigationBar = ({ language, languageSwitchFunction }) => {
 
           <LanguageToggle
             languageSwitchFunction={languageSwitchFunction}
-            text="TR - EN"
-            language={language}
+            supportedLanguages={[TURKISH, ENGLISH]}
+            selectedLanguage={language}
           />
         </div>
       </Container>

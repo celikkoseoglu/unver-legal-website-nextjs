@@ -21,6 +21,7 @@ import UnstyledLink from "../Util/UnstyledLink";
 import HorizontalRuler from "../Util/HorizontalRuler";
 import LanguageToggle from "../LanguageToggle";
 import UnverLegalLogo from "../Animations/UnverLegalLogo";
+import { ENGLISH, TURKISH } from "../../utils/LanguageSwitcher";
 
 const BlogNavbar = ({
   headerText,
@@ -62,8 +63,8 @@ const BlogNavbar = ({
         <div className={centerAlign}>
           <LanguageToggle
             languageSwitchFunction={languageSwitchFunction}
-            text="TR - EN"
-            language={language}
+            supportedLanguages={[TURKISH, ENGLISH]}
+            selectedLanguage={language}
             isDark={isDark}
           />
         </div>

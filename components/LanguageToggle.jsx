@@ -1,14 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import storage from "local-storage-fallback";
-import { ENGLISH, switchLanguage, TURKISH } from "../utils/LanguageSwitcher";
+import { switchLanguage } from "../utils/LanguageSwitcher";
 import {
   languageToggle,
-  languageMarker,
-  firstLanguageMarker,
-  secondLanguageMarker,
-  firstLanguageMarkerDark,
-  secondLanguageMarkerDark,
+  languageBorder,
   darkLanguageToggle,
 } from "../stylesheets/components/LanguageToggle.module.sass";
 
@@ -18,20 +14,10 @@ const onClickWrapper = (language) => {
   return newLanguage;
 };
 
-const drawSelectedLanguageLine = (isDark, language) => {
-  if (TURKISH === language) {
-    return isDark ? firstLanguageMarkerDark : firstLanguageMarker;
-  }
-  if (ENGLISH === language) {
-    return isDark ? secondLanguageMarkerDark : secondLanguageMarker;
-  }
-  return null;
-};
-
 const LanguageToggle = ({
-  text,
   className,
-  language,
+  supportedLanguages,
+  selectedLanguage,
   languageSwitchFunction,
   isDark,
 }) => (
@@ -39,21 +25,31 @@ const LanguageToggle = ({
     type="button"
     aria-label="Language Toggle"
     onClick={() => {
-      languageSwitchFunction(onClickWrapper(language));
+      languageSwitchFunction(onClickWrapper(selectedLanguage));
     }}
-    className={`${languageToggle} ${languageMarker} ${drawSelectedLanguageLine(
-      isDark,
-      language
-    )} ${isDark && darkLanguageToggle}`}
+    className={`${languageToggle} ${isDark && darkLanguageToggle}`}
   >
-    {text}
+    {supportedLanguages.map((language, index) => {
+      let innerText = language.toUpperCase();
+      return (
+        <>
+          <span
+            className={selectedLanguage == language ? languageBorder : null}
+            key={language.toString()}
+          >
+            {innerText}
+          </span>
+          {index < supportedLanguages.length - 1 && <span> - </span>}
+        </>
+      );
+    })}
   </button>
 );
 
 LanguageToggle.propTypes = {
-  text: PropTypes.string.isRequired,
+  supportedLanguages: PropTypes.array.isRequired,
   className: PropTypes.string,
-  language: PropTypes.string.isRequired,
+  selectedLanguage: PropTypes.string.isRequired,
   languageSwitchFunction: PropTypes.func.isRequired,
   isDark: PropTypes.bool,
 };
