@@ -11,7 +11,13 @@ import {
   box,
 } from "../stylesheets/components/Hero.module.sass";
 
-const Hero = ({ introHeading, introLeadIn, introLeadOut, resumeButtonText, resumeLink }) => (
+const Hero = ({
+  introHeading,
+  introLeadIn,
+  introLeadOut,
+  resumeButtonText,
+  resumeLink,
+}) => (
   <div className={`${introMargin}`}>
     <div className={`${introLeadInStyle} ${introFont}`}>{introLeadIn}</div>
     <div className={`${introHeadingStyle} ${introFont}`}>{introHeading}</div>

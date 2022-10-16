@@ -54,7 +54,7 @@ const BlogNavbar = ({
     <div>
       <UnstyledLink to={brandingLink}>
         <a className={branding} href="/">
-          <UnverLegalLogo isDark={isDark}/>
+          <UnverLegalLogo isDark={isDark} />
         </a>
       </UnstyledLink>
 

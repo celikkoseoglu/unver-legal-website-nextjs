@@ -30,7 +30,9 @@ const Footer = ({ language }) => {
       className={toggleDisclaimerButton}
       onClick={(_) => setIsDisclaimerExpanded(!isDisclaimerExpanded)}
     >
-      {isDisclaimerExpanded ? footer.disclaimerHideButtonText : footer.disclaimerShowButtonText}
+      {isDisclaimerExpanded
+        ? footer.disclaimerHideButtonText
+        : footer.disclaimerShowButtonText}
     </button>
   );
 
@@ -43,7 +45,9 @@ const Footer = ({ language }) => {
 
         <HorizontalRuler isDark className={ruler} />
         <div className={footerListContainer}>
-          <p className={`${footerListDescription} ${footerLightText}`}>{footer.disclaimer}</p>
+          <p className={`${footerListDescription} ${footerLightText}`}>
+            {footer.disclaimer}
+          </p>
           {isDisclaimerExpanded && (
             <p className={`${footerListDescription} ${footerLightText}`}>
               {footer.extendedDisclaimer}

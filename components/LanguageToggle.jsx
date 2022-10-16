@@ -28,16 +28,23 @@ const drawSelectedLanguageLine = (isDark, language) => {
   return null;
 };
 
-const LanguageToggle = ({ text, className, language, languageSwitchFunction, isDark }) => (
+const LanguageToggle = ({
+  text,
+  className,
+  language,
+  languageSwitchFunction,
+  isDark,
+}) => (
   <button
     type="button"
     aria-label="Language Toggle"
     onClick={() => {
       languageSwitchFunction(onClickWrapper(language));
     }}
-    className={`${languageToggle} ${languageMarker} ${drawSelectedLanguageLine(isDark, language)} ${
-      isDark && darkLanguageToggle
-    }`}
+    className={`${languageToggle} ${languageMarker} ${drawSelectedLanguageLine(
+      isDark,
+      language
+    )} ${isDark && darkLanguageToggle}`}
   >
     {text}
   </button>

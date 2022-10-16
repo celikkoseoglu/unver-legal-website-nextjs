@@ -27,7 +27,9 @@ export default function Home({ allPosts }) {
       <AboutMe id={content.aboutUsReference} language={DEFAULT_LANGUAGE} />
       <PublicationShowcase
         id={content.publicationShowcaseReference}
-        allPosts={allPosts.filter((post) => post.data.language === DEFAULT_LANGUAGE)}
+        allPosts={allPosts.filter(
+          (post) => post.data.language === DEFAULT_LANGUAGE
+        )}
         language={DEFAULT_LANGUAGE}
       />
       <Contact id={content.contactReference} language={DEFAULT_LANGUAGE} />
