@@ -32,7 +32,7 @@ const LanguageToggle = ({
     {supportedLanguages.map((language, index) => {
       let innerText = language.toUpperCase();
       return (
-        <>
+        <span key={innerText}>
           <span
             className={selectedLanguage == language ? languageBorder : null}
             key={language.toString()}
@@ -40,7 +40,7 @@ const LanguageToggle = ({
             {innerText}
           </span>
           {index < supportedLanguages.length - 1 && <span> - </span>}
-        </>
+        </span>
       );
     })}
   </button>
