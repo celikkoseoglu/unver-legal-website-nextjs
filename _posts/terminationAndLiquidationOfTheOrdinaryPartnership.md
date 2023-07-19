@@ -26,7 +26,7 @@ The concept of "company" in Turkish law, in a narrow sense, refers to two types 
 
 However, like every other contract, the ordinary partnership contract will also expire. The termination of an ordinary partnership is an economic activity rather than a legal activity since it essentially means a “capitalization". Therefore, it is very important for commercial life to make the termination process duly and correctly. The Court of Cassation describes the liquidation process as a "purification" process. What is meant by this is to examine the accounts and transactions related to the liquidation and partnership, and to reveal the assets and liabilities of the partnership by preparing a balance sheet. The termination of an ordinary partnership is in two groups as spontaneous termination (dissolution) and rescission and is regulated in the provisions of Article 639-640 of the TCO. 
 
-######Spontaneous Termination Reasons: 
+###### Spontaneous Termination Reasons: 
 1. Achievement of the goal stipulated in the partnership agreement, or the goal of the partnership becoming impossible to achieve: What is meant here is objective impossibility, and that the goal in question cannot be achieved by anyone. However, it is also within this scope if the partners come to an agreement to such an extent that they cannot achieve the aforementioned goal. On the other hand, the partners can change the purpose and continue the partnership by changing the ordinary partnership agreement. This requires a unanimous decision.
 
 2. Death of a partner: If there is no prior agreement has been reached with the descendants of the partner for continuation of the partnership.
@@ -37,14 +37,14 @@ However, like every other contract, the ordinary partnership contract will also 
 
 5. Acquisition
 
-######Rescission Reasons:
+###### Rescission Reasons:
 1. By unanimous decision of all partners,
 
 2. With a Partner's Notice of Termination: such right is given to such partner in the partnership agreement, or the partnership is formed for an indefinite period of time, or it is decided in the partnership agreement that the partnership shall cease with the death of a partner. Termination can be affected by giving a notice six months in advance within the scope of good faith.
 
 3. Court Decision: In the presence of a just cause, each of the partners can always request the termination of the partnership from the court, regardless of the notice period. The existence of a just cause is appreciated by the court.
 
-######Liquidation
+###### Liquidation
 
 The dissolution of the partnership and the liquidation of the partnership are separate legal proceedings. In other words, the termination of the ordinary partnership will not legally eliminate the partnership, it will start the liquidation period. As a rule, the powers of representation and management end. At this stage, the existing transactions regarding the partnership are completed, but new transactions are not started. However, the termination will not change the obligations of the partners towards third parties. 
 
