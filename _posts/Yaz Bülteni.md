@@ -1,0 +1,33 @@
+---
+title:
+    page: "UnverLegal - Mali Hak Devri Sözleşmesi ile Lisans Sözleşmesi Arasındaki Farklar"
+    post: "Mali Hak Devri Sözleşmesi ile Lisans Sözleşmesi Arasındaki Farklar"
+description: "Mali Hak Devri Sözleşmesi ile Lisans Sözleşmesinin Niteliği, Konusu, Sağldıkları Haklar"
+date: "2023-07"
+readTime: "10 dakika"
+cover:
+    image: "/images/blogPost/generic/generic.jpg"
+    alt: "UnverLegal publication image header art"
+author:
+    name: Eralp Ünver
+    picture: "/images/blog/eralpUnver.jpg"
+language: "tr"
+---
+
+# Mali Hak Devri Sözleşmesi ile Lisans Sözleşmesi Arasındaki Farklar
+
+### Mali Hak Devri Sözleşmesi ile Lisans Sözleşmesinin Niteliği, Konusu, Sağldıkları Haklar
+
+###### Temmuz 2023 - 10 dakikalık okuma
+
+**Anahtar Kelimeler:** Mali Hak Devri Sözleşmesi, Lisans Sözleşmesi, Mali Hakkın Devri Taahhüdü, Münhasır Lisans, Basit Lisans
+
+**Mali Hak Devri Sözleşmesi**
+Hak sahibinin mali hakkını devrettiği bir sözleşme türü olan mali hak devri sözleşmesi, FSEK m. 48/1 hükmünde düzenlenmiş olup, eser sahibi veya haleflerinin, sahip oldukları mali hakkı yer, süre ve muhteva itibariyle sınırlı veya sınırsız, karşılıklı veya karşılıksız olarak bir başkasına devretmesine ilişkin sözleşmedir. Bu kapsamda mali hak devri sözleşmesi FSEK’te düzenlenen her eser türü bakımından ve yine FSEK m. 21 vd. hükümlerinde düzenlenen tüm mali haklara ilişkin olarak kurulabilecektir. Niteliği itibariyle bir tasarruf işlemi olan mali hak devir sözleşmesi ile devre konu hak veya haklar devredenin malvarlığından çıkar ve devralanın malvarlığına girer. Kural olarak mali hakkın devri soyut bir işlem olup, hukuki sebep geçerli olmasa ya da gerçekleşmese dahi söz konusu mali hak, devralana geçer. Hakkı devralan, devraldığı mali hakkın ihlal edilmesi halinde eser sahibine tanınmış hukuk davalarının tümünü kendi adına açabilir, ceza hukuku kapsamında suç duyurunda bulunabilir. FSEK m. 52 uyarınca mali haklara ilişkin sözleşme ve tasarrufların yazılı olması ve konusu olan hakların da her birinin, sözleşmede ayrı ayrı gösterilmesi şarttır. Bir başka ifade ile “bütün mali haklarımı devrettim” şeklindeki devir sözleşmesi geçersiz sayılacaktır. 
+
+FSEK m. 14 vd. hükümlerinde düzenlenen manevi haklar ise hak devir sözleşmesinin konusunu oluşturamazlar. Zira manevi haklar, sahibinin kişiliğine sıkı sıkıya bağlı, münhasır haklardan olup, devredilemez ya da mirasla intikal edemezler. FSEK m. 48/3 uyarınca mali hakkın devri sözleşmesi yalnızca tamamlanmış eserler bakımından yapılabilecektir. Bir başka ifadeyle, henüz vücuda getirilmemiş veya tamamlanacak eserlere ilişkin yapılan mali hak devri sözleşmesi geçersizdir. FSEK m. 51 uyarınca, ileride çıkarılacak mevzuatın eser sahibine tanıması muhtemel mali hakların devrine ilişkin sözleşmeler de batıl olacaktır. Henüz vücuda getirilmeyen eserler bakımından mali hakkın devri söz konusu olamamakla beraber böyle durumlarda FSEK m. 50 hükmü uyarınca mali hakkın devri taahhüdü yapılabilir. Bu işlem nitelik itibariyle borçlandırıcı bir işlemdir. Dolayısıyla kendisine taahhüt yapılan kişi, eserin tamamlanmasıyla eser üzerindeki mali hakları doğrudan doğruya kazanamaz. Taahhüt yapılan kişinin burada bir alacak hakkı mevcut olur ve eser sahibi veya halefinin borcu, artık devre ilişkin tasarruf işlemini gerçekleştirmektir. FSEK m. 50/2 hükmü, taraflardan her birine, ihbar tarihinden bir yıl sonra hüküm ifade etmek koşuluyla bu taahhütleri feshetme yetkisi tanımıştır. Uygulamada mahkemeler, zaman zaman taahhüdün yapılmasının ardından eser tamamlandıktan sonra tasarruf işlemi niteliğindeki mali hakkın devri sözleşmesini aramadan, sözleşme konusu hakların devredildiğini kabul etmektedir ancak bu durum FSEK’in ilgili hükümleri ile Borçlar Hukuku’nun temel ilkelerine aykırıdır. 
+
+**Lisans Sözleşmesi**
+FSEK m. 48/2’de düzenlenen lisans sözleşmesi ile lisans sahibi, sözleşme konusu hakkın kullanma yetkisine, bir başka ifadeyle haktan yararlanma iznine sahip olur. Kullanım yetkisinin verilmesi yasada ruhsat olarak adlandırılmıştır. Lisans sözleşmelerinin borçlandırıcı işlem mi yoksa tasarruf işlemi mi olduğu öğretide tartışmalıdır. Bizim de katıldığımız görüşe göre lisans sözleşmesi nitelik itibariyle borçlandırıcı işlemdir. Zira lisans sözleşmesinde hak sahibi, sözleşme konusu hakkın “kullanım hakkını” lisans alana tanımakta, bir başka ifadeyle lisansta, hakkın özü, o lisansı verende yani hak sahibinin malvarlığında kalmakta, lisans alana herhangi bir hak devri söz konusu olmamaktadır. Aksi görüş ise lisans sözleşmesini alacağın temliki gibi bir tasarruf işlemi olarak kabul eder. Yargıtay’ın da çoğunlukla kabulü, lisans sözleşmelerinin tasarruf işlemi olduğu yönündedir. Yalnızca mali haklara ilişkin olarak değil, FSEK m. 14 vd. hükümlerinde düzenlenen manevi haklara ilişkin olarak da kullanma hakkı yani lisans (ruhsat) verilebilecektir. FSEK m. 56 uyarınca lisans sözleşmeleri, basit ve tam (münhasır) lisans olarak ikiye ayrılır. Verilen izin, hak sahibinin başkalarına da aynı izni vermesine engel oluşturmuyorsa basit lisans niteliğindedir. Maddenin ikinci fıkrasına göre yasadan ya da ilgili sözleşmeden aksi anlaşılmadığı müddetçe hak sahibi tarafından üçüncü kişilere verilen her türlü lisans basit lisans sayılır. Sözleşme konusu hak üzerindeki kullanım yetkisinin, lisans verilen kişiden başka bir kişiye verilmeyeceği taahhüdü altına girilen sözleşme ise tam (münhasır) lisans sözleşmesidir. Burada hak sahibi, lisans konusu olan hakkı taraflar arası sözleşmede aksi açıkça kararlaştırılmadığı sürece kendisi de kullanamayacaktır. Bununla birlikte hak, lisans verenin malvarlığında kaldığından hak sahibi, tam lisans vermiş olsa bile, mali hakkı üzerinde tasarrufta bulunabilecek, hakkı başkasına devredebilecektir. FSEK m. 56/3 hükmü basit lisanslarda hasılat kirasına; münhasır lisanslarda intifa hakkına ilişkin hükümlerin uygulanacağını öngörmüştür.
+
+Lisans hakkı lisans alana şahsi bir hak sağladığından, nispilik gereği lisans konusuna yapılan bir ihlal halinde lisans alan kendisi dava açamayacak, durumu eser sahibine haber verecek, dava eser sahibi tarafından açılabilecektir. Ancak bazı yazarlar lisans türüne göre ayrım yaparak, basit lisans açısından lisans alanın dava açamazken, tam lisansta lisans alanın dava yetkisinin olduğunu belirtirler. Ancak biz bu görüşe katılamıyoruz, zira ister basit ister tam lisans olsun, ilgili hak, hak sahibinin malvarlığından çıkmadığından ve FSEK hükümlerinde de ihlâllere karşı lisans alana doğrudan dava açma imkânı tanınmadığından lisans sahibi dava açamayacaktır. Öte yandan lisans sözleşmesinde öngörülecek bir hüküm ile, lisans alana, lisans konusu hakka ilişkin ihlâllere karşı dava açma yetkisi tanınabilecektir. 
